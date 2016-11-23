@@ -1,6 +1,6 @@
 {
-    "devices": [
+    "devices": {
         "DEVICE_ARP_ADDRESS": {"eventid": "IFTTT_EVENT_ID"}
-    ],
+    },
     "iftttMakerKey": "YOUR_MAKER_KEY_FROM_IFTTT"
 }
