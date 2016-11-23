@@ -8,3 +8,4 @@ dash.on("detected", function (dash_id) {
     console.log("Saw button " + dash_id + ", sending event: " + config.devices[dash_id].eventid)
     ifttt.request({event: config.devices[dash_id].eventid, method: "GET"})
 })
+console.log("Listening for button presses on " + Object.keys(config.devices).length + " device(s)...")
