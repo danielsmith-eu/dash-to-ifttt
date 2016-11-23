@@ -1,0 +1,16 @@
+{
+  "name": "dash-to-ifttt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dash.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Alexander Smith <daniel@danielsmith.eu> (http://deltasierra.uk/)",
+  "license": "ISC",
+  "dependencies": {
+    "node-dash-button": "^0.6.1",
+    "node-hue-api": "^2.3.0",
+    "node-ifttt-maker": "^0.1.2"
+  }
+}
