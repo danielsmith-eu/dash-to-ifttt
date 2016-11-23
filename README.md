@@ -16,6 +16,13 @@ Run as root so it can listen to ARPs, e.g.:
 
 Leave running on a raspberry pi or something connected to your local wifi.
 
+## Experimental Dockerfile
+
+If you wish to run this tool in a container, you can try with Docker, i.e.
+
+    docker build -t dash-to-ifttt .
+    docker run --net=host dash-to-ifttt
+
 
 ## Dash button setup
 
